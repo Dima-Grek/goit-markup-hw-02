@@ -1,21 +1,41 @@
-.body {
-    font-family: 'Roboto', sans-serif;
-    width: 1600px;
-    height: 2349px;
-    background: #fff;
-}
-
-.logo {
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #000;
-}
+      :root {
+         --main-text-color: #757575;
+         --title-color: #212121;
+         --alternative-title-color: #ffffff;
+         --button-color: #ffffff;
+         --link-color: #212121;
+         --link-alt-color: #2196F3;
+         --main-font: "Roboto", sans-serif;
+         --logo-font: "Raleway";
+     }
+     
+     .body {
+         font-family: var(--main-font);
+         font-size: 14px;
+         line-height: 1.71;
+         letter-spacing: 0.03em;
+         color: var(--main-text-color);
+     }
+     
+     .logo {
+         font-family: Raleway;
+         font-size: 26px;
+         line-height: 31px;
+         letter-spacing: 0.03em;
+         color: #000;
+     }
+     
+     .link {
+         color: inherit;
+         text-decoration: none;
+         color: var(--link-color);
+     }
+     
+     .link:hover,
+     .link:focus {
+         color: var(--link-alt-color);
+     }
+     
+     .list {
+         list-style: none;
+     }
