@@ -9,14 +9,14 @@
     --dark-bg-color: #2F303A;
     --main-font: "Roboto", sans-serif;
     --logo-font: "Raleway";
+    --page-text-section-two: font-size: 14px;
 }
 
 .body {
     font-family: var(--main-font);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--main-text-color);
+    width: 1600px;
+    height: 2349px;
 }
 
 
@@ -143,6 +143,26 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/*стили текста*/
+
+.page-text-section-two {
+    font-size: var(--page-text-section-two);
+    line-height: 1.46;
+    box-align: Left;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+
+.page-tex-for-images {
+    font-style: regular;
+    font-size: var(--page-text-section-two);
+    line-height: 1;
+    text-align: center;
+    vertical-align: top;
     letter-spacing: 0.03em;
 }
 
