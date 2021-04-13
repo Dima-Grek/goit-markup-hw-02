@@ -7,6 +7,7 @@
     --link-color: #212121;
     --link-alt-color: #2196F3;
     --dark-bg-color: #2F303A;
+    --header-color: #ececec;
     --main-font: "Roboto", sans-serif;
     --logo-font: "Raleway";
     --page-tex-for-images: font-size: 16px, font-style: regular;
@@ -101,6 +102,10 @@
 
 .info-alt {
     color: rgba(255, 255, 255, 0.6);
+}
+
+.header {
+    background-color: var(--header-color);
 }
 
 
