@@ -90,6 +90,7 @@
 .info-header {
     color: inherit;
     font-weight: 500;
+    font-size: 14px;
     line-height: 0.88;
     letter-spacing: 0.02em;
 }
