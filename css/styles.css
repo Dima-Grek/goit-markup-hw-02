@@ -1,219 +1,295 @@
-                                         :root {
-                                            --main-text-color: #757575;
-                                            --title-color: #212121;
-                                            --alternative-text-color: #ffffff;
-                                            --alternative-title-color: #ffffff;
-                                            --button-color: #ffffff;
-                                            --link-color: #212121;
-                                            --link-alt-color: #2196F3;
-                                            --dark-bg-color: #2F303A;
-                                            --main-font: "Roboto", sans-serif;
-                                            --logo-font: "Raleway";
-                                            --page-tex-for-images: font-size: 16px, font-style: regular;
-                                        }
-                                        
-                                        .body {
-                                            font-family: var(--main-font);
-                                            width: 1600px;
-                                            height: 2349px;
-                                            color: var(--main-text-color);
-                                        }
-                                        /*скрываем заголовок*/
-                                        
-                                        .visually-hidden {
-                                            position: absolute !important;
-                                            clip: rect(1px 1px 1px 1px);
-                                            clip: rect(1px, 1px, 1px, 1px);
-                                            padding: 0 !important;
-                                            border: 0 !important;
-                                            height: 1px !important;
-                                            width: 1px !important;
-                                            overflow: hidden;
-                                        }
-                                        /*логотип*/
-                                        
-                                        .logo {
-                                            text-decoration: none;
-                                            font-family: Raleway;
-                                            font-size: 26px;
-                                            line-height: 1.14;
-                                            letter-spacing: 0.03em;
-                                            color: #000;
-                                        }
-                                        
-                                        .logo:hover,
-                                        .logo:focus {
-                                            color: var(--link-alt-color);
-                                        }
-                                        
-                                        .logo-cl {
-                                            color: #2196F3;
-                                        }
-                                        /*логотип внизу*/
-                                        
-                                        .logo-cl-alt {
-                                            color: var(--alternative-text-color);
-                                        }
-                                        /*студия-портфолио-контакты*/
-                                        
-                                        .link {
-                                            color: inherit;
-                                            text-decoration: none;
-                                            font-weight: 500;
-                                            font-size: 14px;
-                                            line-height: 1.17;
-                                            letter-spacing: 0.02em;
-                                            color: var(--link-color);
-                                        }
-                                        
-                                        .link:hover,
-                                        .link:focus {
-                                            color: var(--link-alt-color);
-                                        }
-                                        /*почта-телефон-вверху*/
-                                        
-                                        .info {
-                                            color: inherit;
-                                            text-decoration: none;
-                                            font-weight: 500;
-                                            font-size: 14px;
-                                            line-height: 0.88;
-                                            letter-spacing: 0.02em;
-                                        }
-                                        
-                                        .info:hover,
-                                        .info:focus {
-                                            color: var(--link-alt-color);
-                                        }
-                                        /*почта-телефон-внизу*/
-                                        
-                                        .info-alt {
-                                            color: rgba(255, 255, 255, 0.6);
-                                        }
-                                        /*главный заголовок*/
-                                        
-                                        .hero {
-                                            font-weight: 900;
-                                            font-size: 44px;
-                                            line-height: 1.36;
-                                            text-align: center;
-                                            letter-spacing: 0.06em;
-                                            text-transform: uppercase;
-                                            color: var(--alternative-title-color);
-                                            white-space: nowrap;
-                                        }
-                                        /*кнопка*/
-                                        
-                                        .bin {
-                                            font-style: bold;
-                                            border-radius: 4px;
-                                            border: none;
-                                            offset: 0px, 4px;
-                                            cursor: pointer;
-                                        }
-                                        /*цвета кнопки страницы сайт*/
-                                        
-                                        .bin-page-site {
-                                            font-size: 16px;
-                                            line-height: 1.6;
-                                            letter-spacing: 0.06em;
-                                            color: var(--alternative-title-color);
-                                            background-color: #2196F3;
-                                        }
-                                        
-                                        .bin-page-site:hover,
-                                        .bin-page-site:focus {
-                                            color: var(--link-color)
-                                        }
-                                        /*цвета кнопки страницы сайт*/
-                                        
-                                        .bin-portfolio-cl {
-                                            font-style: medium;
-                                            font-size: 16px;
-                                            line-height: 1.39;
-                                            color: var(--link-color);
-                                            background-color: #F5F4FA;
-                                        }
-                                        /*цвета кнопки страницы портфолио*/
-                                        
-                                        .bin-portfolio-cl:hover,
-                                        .bin-portfolio-cl:focus {
-                                            color: var(--alternative-title-color);
-                                            background-color: #2196F3;
-                                        }
-                                        /*убирает точки из списка*/
-                                        
-                                        .list {
-                                            list-style: none;
-                                        }
-                                        /*меняет цвет и размер заголовков*/
-                                        
-                                        .title {
-                                            color: var( --title-color);
-                                        }
-                                        /*стили текста страница сайт*/
-                                        
-                                        .page-title {
-                                            font-weight: bold;
-                                            font-size: 14px;
-                                            line-height: 1.14;
-                                            letter-spacing: 0.03em;
-                                            text-transform: uppercase;
-                                        }
-                                        /*стили текста страница портфолио*/
-                                        
-                                        .page-title-portfolio {
-                                            font-weight: bold;
-                                            font-size: 18px;
-                                            line-height: 1.71;
-                                            text-align: left;
-                                            letter-spacing: 0.06em;
-                                        }
-                                        /*Стили заголовков h2*/
-                                        
-                                        .section-title {
-                                            font-weight: bold;
-                                            font-size: 36px;
-                                            line-height: 1.17;
-                                            text-align: center;
-                                            letter-spacing: 0.03em;
-                                        }
-                                        /*стили текста секция 2 страница сайт*/
-                                        
-                                        .page-text-section-two {
-                                            font-size: 14px;
-                                            line-height: 1.46;
-                                            box-align: Left;
-                                            vertical-align: top;
-                                            letter-spacing: 0.03em;
-                                        }
-                                        
-                                        .page-tex-for-images {
-                                            font-size: var(--page-tex-for-images);
-                                            line-height: 1;
-                                            vertical-align: top;
-                                            letter-spacing: 0.03em;
-                                        }
-                                        /*стили текста страница портфолио*/
-                                        
-                                        .page-tex-for-images-portfolio {
-                                            font-size: var(--page-tex-for-images);
-                                            line-height: 1.6;
-                                            letter-spacing: 0.03em;
-                                        }
-                                        /*адрес*/
-                                        
-                                        .adress {
-                                            color: inherit;
-                                            text-decoration: none;
-                                            font-size: 14px;
-                                            line-height: 1.71;
-                                            letter-spacing: 0.03em;
-                                            color: var(--alternative-text-color);
-                                        }
-                                        
-                                        .adress:hover,
-                                        .adress:focus {
-                                            color: var(--link-alt-color);
-                                        }
-                                        /*подвал*/
+:root {
+    --main-text-color: #757575;
+    --title-color: #212121;
+    --alternative-text-color: #ffffff;
+    --alternative-title-color: #ffffff;
+    --button-color: #ffffff;
+    --link-color: #212121;
+    --link-alt-color: #2196F3;
+    --dark-bg-color: #2F303A;
+    --header-color: #ececec;
+    --active-link-color: #2196f3;
+    --main-font: "Roboto", sans-serif;
+    --logo-font: "Raleway";
+    --page-tex-for-images: font-size: 16px, font-style: regular;
+}
+
+.body {
+    font-family: var(--main-font);
+    height: 2349px;
+    color: var(--main-text-color);
+}
+
+
+/*скрываем заголовок*/
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+
+/*логотип*/
+
+.logo {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #000;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--link-alt-color);
+}
+
+.logo-cl {
+    color: #2196F3;
+}
+
+
+/*логотип внизу*/
+
+.logo-cl-alt {
+    color: var(--alternative-text-color);
+}
+
+
+/*студия-портфолио-контакты*/
+
+.link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--link-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--link-alt-color);
+}
+
+.active-link {
+    color: var(--active-link-color);
+}
+
+
+/*почта-телефон-вверху*/
+
+.info-header {
+    color: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.88;
+    letter-spacing: 0.02em;
+}
+
+.info:hover,
+.info:focus {
+    color: var(--link-alt-color);
+}
+
+
+/*почта-телефон-внизу*/
+
+.info-footer {
+    color: inherit;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.header {
+    background-color: var(--header-color);
+}
+
+
+/*секция 1*/
+
+.main-section-one {
+    height: 600px;
+    background-color: var(--dark-bg-color);
+}
+
+
+/*главный заголовок*/
+
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--alternative-title-color);
+    white-space: nowrap;
+}
+
+
+/*кнопка*/
+
+.bin {
+    font-style: bold;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*цвета кнопки страницы сайт*/
+
+.bin-page-site {
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: var(--alternative-title-color);
+    background-color: #2196F3;
+}
+
+.bin-page-site:hover,
+.bin-page-site:focus {
+    color: var(--link-color)
+}
+
+
+/*цвета кнопки страницы сайт*/
+
+.bin-portfolio-cl {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.39;
+    color: var(--link-color);
+    background-color: #F5F4FA;
+}
+
+
+/*цвета кнопки страницы портфолио*/
+
+.bin-portfolio-cl:hover,
+.bin-portfolio-cl:focus {
+    color: var(--alternative-title-color);
+    background-color: #2196F3;
+}
+
+
+/*убирает точки из списка*/
+
+.list {
+    list-style: none;
+}
+
+
+/*меняет цвет и размер заголовков*/
+
+.title {
+    color: var( --title-color);
+}
+
+
+/*стили текста страница сайт*/
+
+.page-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.page-title-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+
+/*стили текста страница портфолио*/
+
+.page-title-portfolio {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.71;
+    text-align: left;
+    letter-spacing: 0.06em;
+}
+
+
+/*Стили заголовков h2*/
+
+.section-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/*стили текста секция 2 страница сайт*/
+
+.page-text-section-two {
+    font-size: 14px;
+    line-height: 1.46;
+    box-align: Left;
+    vertical-align: top;
+    letter-spacing: 0.03em;
+}
+
+.page-tex-for-images {
+    font-size: var(--page-tex-for-images);
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    ;
+}
+
+
+/*стили текста страница портфолио*/
+
+.page-tex-for-images-portfolio {
+    font-size: var(--page-tex-for-images);
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+
+/*адрес*/
+
+.adress {
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--alternative-text-color);
+}
+
+.adress:hover,
+.adress:focus {
+    color: var(--link-alt-color);
+}
+
+
+/*подвал*/
+
+.footer {
+    height: 252px;
+    background-color: var(--dark-bg-color);
+}
